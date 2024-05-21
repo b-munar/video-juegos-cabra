@@ -1,107 +1,385 @@
 {
-    "player_spawn": {
-        "position": {
-            "x": 320,
-            "y": 180
-        },
-        "max_bullets": 4
+  "player_spawn": {
+    "position": {
+      "x": 125,
+      "y": 220
     },
-    "enemy_spawn_events": [
-        {
-            "time": 0.0,
-            "enemy_type": "Hunter",
-            "position": {
-                "x": 560,
-                "y": 180
-            }
-        },
-        {
-            "time": 0.0,
-            "enemy_type": "Hunter",
-            "position": {
-                "x": 305,
-                "y": 300
-            }
-        },
-        {
-            "time": 0.0,
-            "enemy_type": "Hunter",
-            "position": {
-                "x": 40,
-                "y": 180
-            }
-        },
-        {
-            "time": 0.0,
-            "enemy_type": "Hunter",
-            "position": {
-                "x": 305,
-                "y": 20
-            }
-        },
-        {
-            "time": 3.0,
-            "enemy_type": "AsteroidA",
-            "position": {
-                "x": 50,
-                "y": 50
-            }
-        },
-        {
-            "time": 6.0,
-            "enemy_type": "AsteroidB",
-            "position": {
-                "x": 500,
-                "y": 200
-            }
-        },
-        {
-            "time": 9.0,
-            "enemy_type": "AsteroidC",
-            "position": {
-                "x": 200,
-                "y": 300
-            }
-        },
-        {
-            "time": 12.0,
-            "enemy_type": "AsteroidD",
-            "position": {
-                "x": 600,
-                "y": 50
-            }
-        },
-        {
-            "time": 14.0,
-            "enemy_type": "AsteroidA",
-            "position": {
-                "x": 90,
-                "y": 180
-            }
-        },
-        {
-            "time": 16.0,
-            "enemy_type": "AsteroidB",
-            "position": {
-                "x": 200,
-                "y": 200
-            }
-        },
-        {
-            "time": 18.0,
-            "enemy_type": "AsteroidC",
-            "position": {
-                "x": 240,
-                "y": 90
-            }
-        },
-        {
-            "time": 20.0,
-            "enemy_type": "AsteroidD",
-            "position": {
-                "x": 540,
-                "y": 260
-            }
-        }
-    ]
+    "max_bullets": 1
+  },
+  "start_game_sound": "assets/snd/game_start.ogg",
+  "enemy_spawn_events": [
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy4",
+      "position": {
+        "x": 98,
+        "y": 38
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy4",
+      "position": {
+        "x": 143,
+        "y": 38
+      }
+    },
+
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy3",
+      "position": {
+        "x": 84,
+        "y": 53
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy3",
+      "position": {
+        "x": 99,
+        "y": 53
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy3",
+      "position": {
+        "x": 114,
+        "y": 53
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy3",
+      "position": {
+        "x": 129,
+        "y": 53
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy3",
+      "position": {
+        "x": 144,
+        "y": 53
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy3",
+      "position": {
+        "x": 159,
+        "y": 53
+      }
+    },
+
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy2",
+      "position": {
+        "x": 68,
+        "y": 66
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy2",
+      "position": {
+        "x": 83,
+        "y": 66
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy2",
+      "position": {
+        "x": 98,
+        "y": 66
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy2",
+      "position": {
+        "x": 113,
+        "y": 66
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy2",
+      "position": {
+        "x": 128,
+        "y": 66
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy2",
+      "position": {
+        "x": 143,
+        "y": 66
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy2",
+      "position": {
+        "x": 158,
+        "y": 66
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy2",
+      "position": {
+        "x": 173,
+        "y": 66
+      }
+    },
+
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 55,
+        "y": 80
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 70,
+        "y": 80
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 85,
+        "y": 80
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 100,
+        "y": 80
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 115,
+        "y": 80
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 130,
+        "y": 80
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 145,
+        "y": 80
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 160,
+        "y": 80
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 175,
+        "y": 80
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 190,
+        "y": 80
+      }
+    },
+
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 55,
+        "y": 93
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 70,
+        "y": 93
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 85,
+        "y": 93
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 100,
+        "y": 93
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 115,
+        "y": 93
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 130,
+        "y": 93
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 145,
+        "y": 93
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 160,
+        "y": 93
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 175,
+        "y": 93
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 190,
+        "y": 93
+      }
+    },
+
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 55,
+        "y": 106
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 70,
+        "y": 106
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 85,
+        "y": 106
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 100,
+        "y": 106
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 115,
+        "y": 106
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 130,
+        "y": 106
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 145,
+        "y": 106
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 160,
+        "y": 106
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 175,
+        "y": 106
+      }
+    },
+    {
+      "time": 4.0,
+      "enemy_type": "Enemy1",
+      "position": {
+        "x": 190,
+        "y": 106
+      }
+    }
+  ]
 }

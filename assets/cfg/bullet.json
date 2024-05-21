@@ -1,5 +1,23 @@
 {
-    "sound": "assets/snd/laser.ogg",
-    "image": "assets/img/bullet.png",
-    "velocity": 200
+  "sound": "assets/snd/player_shoot.ogg",
+  "velocity": 350,
+  "enemy_velocity": 70,
+  "size": {
+    "x": 1,
+    "y": 3
+  },
+  "enemy_size": {
+    "x": 1,
+    "y": 4
+  },
+  "color": {
+    "r": 255,
+    "g": 158,
+    "b": 57
+  },
+  "enemy_color": {
+    "r": 255,
+    "g": 255,
+    "b": 255
+  }
 }
