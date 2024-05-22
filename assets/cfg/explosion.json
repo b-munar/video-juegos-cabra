@@ -1,15 +1,17 @@
 {
-    "sound":"assets/snd/explosion.ogg",
-    "image": "assets/img/explosion.png",
-    "animations": {
-        "number_frames": 8,
-        "list": [
-            {
-                "name": "EXPLODE",
-                "start": 0,
-                "end": 7,
-                "framerate": 16
-            }
-        ]
-    }
+  "enemy_sound": "assets/snd/enemy_die.ogg",
+  "enemy_image": "assets/img/invaders_enemy_explosion.png",
+  "player_sound": "assets/snd/player_die.ogg",
+  "player_image": "assets/img/invaders_player_explosion.png",
+  "animations": {
+    "number_frames": 4,
+    "list": [
+      {
+        "name": "EXPLODE",
+        "start": 0,
+        "end": 3,
+        "framerate": 16
+      }
+    ]
+  }
 }
