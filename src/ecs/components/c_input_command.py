@@ -6,6 +6,7 @@ class CInputCommand:
         self.name = name
         self.key = key
         self.phase = CommandPhase.NA
+        self.prev = CommandPhase.NA
 
 class CommandPhase(Enum):
     NA = 0
